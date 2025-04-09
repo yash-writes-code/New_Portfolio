@@ -15,9 +15,14 @@ const navLinks = [
     path: "#projects",
   },
   {
+    title: "Experience",
+    path: "#experience",
+  },
+  {
     title: "Contact",
     path: "#contact",
   },
+
 ];
 
 const Navbar = () => {
@@ -30,7 +35,7 @@ const Navbar = () => {
           href={"/"}
           className="text-2xl md:text-5xl text-white font-semibold"
         >
-          LOGO
+          YASH
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
